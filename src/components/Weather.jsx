@@ -23,7 +23,7 @@ export default function Weather({ weather }) {
 
             <div className="w-32 mt-5 mr-2">
               <img
-                src={`/icons/${weather.weather[0].icon}.png`}
+                src={`icons/${weather.weather[0].icon}.png`}
                 className="object-cover pt-4 px-2"
                 alt="icon"
               />
