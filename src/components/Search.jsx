@@ -5,6 +5,7 @@ export default function Search({ handleSearch }) {
   const [search, setSearch] = useState(null);
 
   function handleChange(data) {
+    
     setSearch(data);
     handleSearch(data);
   }
@@ -39,7 +40,7 @@ export default function Search({ handleSearch }) {
 
   return (
     <>
-      <div className="container">
+      <div className="container p-4 mx-auto">
         <div className="w-m-xl max-w-2xl mx-auto  my-5">
           <AsyncPaginate
             placeholder="search for city"

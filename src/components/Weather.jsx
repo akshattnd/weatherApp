@@ -2,6 +2,7 @@ import React from "react";
 export default function Weather({ weather }) {
   return (
     <>
+    
       <div className="container px-5  my-10 ">
         <div className="  card shadow-xl rounded-3xl max-w-lg border mx-auto">
           <div className="flex justify-around">
